@@ -213,7 +213,7 @@ export default withPwa(
           ],
         },
         */
-        //{ text: "Example", link: "/example" }
+        { text: "Example", link: "/example" }
       ],
 
       sidebar: [
@@ -265,7 +265,7 @@ export default withPwa(
           ],
         },
         */
-        //{ text: "Example", link: "/example" },
+        { text: "Example", link: "/example" },
         /*
         */
         {
