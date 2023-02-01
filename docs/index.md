@@ -10,9 +10,9 @@ hero:
       text: Get Started
       link: /example
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
-    - theme: alt
       text: TailWindCSS
-      link: /tailwindcss/index
+      link: /tailwindcss/introduction
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/carlesbarreda/vitepress-starter-kit
 ---
