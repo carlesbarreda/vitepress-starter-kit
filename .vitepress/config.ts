@@ -6,7 +6,7 @@ import { withPwa } from "@vite-pwa/vitepress";
 
 import vuetify from "vite-plugin-vuetify";
 
-const { APP_NAME, APP_TITLE, APP_DESCRIPTION, APP_THEME_COLOR, APP_BGCOLOR } =
+const { APP_NAME, APP_TITLE, APP_DESCRIPTION, APP_THEME_COLOR, APP_BGCOLOR, APP_BASE, APP_SRCDIR } =
   loadEnv("production", process.cwd(), "APP_");
 
 export default withPwa(
@@ -91,9 +91,9 @@ export default withPwa(
     lang: "en-US",
     title: APP_TITLE,
     description: APP_DESCRIPTION,
-    base: "/",
+    base: APP_BASE,
+    srcDir: APP_SRCDIR,
     lastUpdated: true,
-    srcDir: "docs",
 
     head: [
       [
