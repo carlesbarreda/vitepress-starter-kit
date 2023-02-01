@@ -1,5 +1,5 @@
 # Example page
 
-![Vite logo](/assets/vite.svg)
+![Vite logo](/vitepress-starter-kit/assets/vite.svg)
 
-![Site logo](/assets/logo.svg)
+![Site logo](/vitepress-starter-kit/assets/logo.svg)
