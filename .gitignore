@@ -96,6 +96,9 @@ dist
 .vitepress/cache
 .vitepress/dist
 .vitepress/.temp
+docs/.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/.temp
 dist-ssr
 dev-dist
 
