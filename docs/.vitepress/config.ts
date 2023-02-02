@@ -6,8 +6,8 @@ import { withPwa } from "@vite-pwa/vitepress";
 
 import vuetify from "vite-plugin-vuetify";
 
-const { APP_NAME, APP_TITLE, APP_DESCRIPTION, APP_THEME_COLOR, APP_BGCOLOR, APP_BASE, APP_SRCDIR } =
-  loadEnv("production", process.cwd(), "APP_");
+const { APP_NAME, APP_TITLE, APP_DESCRIPTION, APP_THEME_COLOR, APP_BGCOLOR, APP_BASE } =
+  loadEnv("production", "docs/", "APP_");
 
 export default withPwa(
   defineConfig({
@@ -20,6 +20,7 @@ export default withPwa(
       envPrefix: ["VITE_", "VUE_", "APP_"],
       resolve: {
         alias: {
+          "|": fileURLToPath(new URL("../", import.meta.url)),
           "@": fileURLToPath(new URL("./", import.meta.url)),
           "#": fileURLToPath(new URL("./types", import.meta.url)),
         },
@@ -37,7 +38,7 @@ export default withPwa(
     /* Vite PWA Options */
     pwa: {
       registerType: "prompt",
-      outDir: "../.vitepress/dist",
+      outDir: ".vitepress/dist",
       includeAssets: ["favicon.ico"],
       manifest: {
         name: APP_TITLE,
@@ -78,13 +79,11 @@ export default withPwa(
           },
         ],
       },
-      /*
-    // Remove cookie if can't refresh index page (dev-dist)
-    devOptions: {
-      enabled: true,
-      type: "module"
-    },
-    */
+      // Remove cookie if can't refresh index page (dev-dist)
+      devOptions: {
+        enabled: true,
+        type: "module"
+      },
     },
 
     /* Vitepress Options */
@@ -92,7 +91,7 @@ export default withPwa(
     title: APP_TITLE,
     description: APP_DESCRIPTION,
     base: APP_BASE,
-    srcDir: APP_SRCDIR,
+    //srcDir: APP_SRCDIR,
     lastUpdated: true,
 
     head: [

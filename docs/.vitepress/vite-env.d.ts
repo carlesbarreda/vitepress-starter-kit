@@ -17,7 +17,6 @@ interface ImportMetaEnv {
   readonly APP_THEME_COLOR: string;
   readonly APP_BGCOLOR: string;
   readonly APP_BASE: string;
-  readonly APP_SRCDIR: string;
 }
 
 interface ImportMeta {

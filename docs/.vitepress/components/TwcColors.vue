@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { COLORS } from "../design.config";
 const colorNames = Object.keys(COLORS);
-console.log(COLORS);
 </script>
 
 <template>

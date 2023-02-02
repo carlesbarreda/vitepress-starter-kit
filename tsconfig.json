@@ -23,9 +23,9 @@
     "./*.ts",
     "./*.d.ts",
     "./*.vue",
-    "./.vitepress/**/*.ts",
-    "./.vitepress/**/*.d.ts",
-    "./.vitepress/**/*.vue"
+    "./docs/.vitepress/**/*.ts",
+    "./docs/.vitepress/**/*.d.ts",
+    "./docs/.vitepress/**/*.vue"
   ],
   "exclude": ["dist", "node_modules"]
 }
