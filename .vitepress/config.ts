@@ -149,7 +149,7 @@ export default withPwa(
       lastUpdatedText: "Updated Date",
 
       editLink: {
-        pattern: "https://github.com/username/repo/edit/main/docs/:path",
+        pattern: "https://github.com/carlesbarreda/vitepress-starter-kit/edit/main/docs/:path",
         text: "Edit this page on GitHub"
       },
   
