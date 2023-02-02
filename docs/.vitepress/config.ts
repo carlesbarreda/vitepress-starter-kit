@@ -22,7 +22,7 @@ if (typeof process.env.GITHUB_TRIGGERING_ACTOR != "undefined")
 else 
   APP_BASE="";
 
-//console.log(process.env);
+console.log(typeof process.env.GITHUB_TRIGGERING_ACTOR);
 
 export default withPwa(
   defineConfig({
