@@ -16,10 +16,13 @@ const APP_TITLE="Vitepress Starter Kit";
 const APP_DESCRIPTION="Vitepress powered static site generator.";
 const APP_THEME_COLOR="#ffffff";
 const APP_BGCOLOR="#ffffff";
-//const APP_BASE="/vitepress-starter-kit/";
-const APP_BASE="";
+let APP_BASE;
+if (typeof process.env.GITHUB_TRIGGERING_ACTOR != "undefined")
+  APP_BASE="/vitepress-starter-kit/";
+else 
+  APP_BASE="";
 
-console.log(process.env);
+//console.log(process.env);
 
 export default withPwa(
   defineConfig({
