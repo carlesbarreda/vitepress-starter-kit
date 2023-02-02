@@ -57,7 +57,7 @@ var Intersect = {
 var intersect_default = Intersect;
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/directives/ripple/index.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/directives/ripple/VRipple.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/directives/ripple/VRipple.css";
 var stopSymbol = Symbol("rippleStop");
 var DELAY_RIPPLE = 80;
 function transform(el, value) {
@@ -542,4 +542,4 @@ export {
   Touch,
   touch_default
 };
-//# sourceMappingURL=chunk-MWWY33Q5.js.map
+//# sourceMappingURL=chunk-IFW7UPBH.js.map

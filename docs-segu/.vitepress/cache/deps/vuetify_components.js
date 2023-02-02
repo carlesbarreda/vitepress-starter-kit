@@ -29,7 +29,7 @@ import {
   intersect_default,
   ripple_default,
   touch_default
-} from "./chunk-MWWY33Q5.js";
+} from "./chunk-IFW7UPBH.js";
 import {
   Box,
   CircularBuffer,
@@ -138,7 +138,7 @@ import {
 } from "./chunk-GMDR4EMF.js";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VApp/VApp.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VApp/VApp.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VApp/VApp.css";
 var VApp = defineComponent2({
   name: "VApp",
   props: {
@@ -181,10 +181,10 @@ var VApp = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAppBar/VAppBar.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAppBar/VAppBar.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAppBar/VAppBar.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VToolbar/VToolbar.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VToolbar/VToolbar.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VToolbar/VToolbar.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VDefaultsProvider/VDefaultsProvider.mjs
 var VDefaultsProvider = defineComponent({
@@ -535,10 +535,10 @@ var VExpandTransition = createJavascriptTransition("expand-transition", expand_t
 var VExpandXTransition = createJavascriptTransition("expand-x-transition", expand_transition_default("", true));
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VImg/VImg.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VImg/VImg.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VImg/VImg.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VResponsive/VResponsive.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VResponsive/VResponsive.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VResponsive/VResponsive.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/composables/dimensions.mjs
 var makeDimensionProps = propsFactory({
@@ -1261,13 +1261,13 @@ var VAppBar = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtn/VBtn.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtn/VBtn.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtn/VBtn.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBtnGroup/VBtnGroup.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/composables/density.mjs
 var allowedDensities2 = [null, "default", "comfortable", "compact"];
@@ -1622,7 +1622,7 @@ var VBtnToggle = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VIcon/VIcon.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VIcon/VIcon.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VIcon/VIcon.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/composables/size.mjs
 var predefinedSizes = ["x-small", "small", "default", "large", "x-large"];
@@ -1721,7 +1721,7 @@ var VIcon = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/composables/intersectionObserver.mjs
 function useIntersectionObserver(callback) {
@@ -1868,7 +1868,7 @@ var VProgressCircular = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/composables/location.mjs
 var oppositeMap = {
@@ -2499,7 +2499,7 @@ var VAppBarTitle = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAlert/VAlert.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAlert/VAlert.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAlert/VAlert.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAlert/VAlertTitle.mjs
 var VAlertTitle = createSimpleFunctional("v-alert-title");
@@ -2674,16 +2674,16 @@ var VAlert = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAutocomplete/VAutocomplete.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelect/VSelect.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelect/VSelect.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelect/VSelect.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTextField/VTextField.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTextField/VTextField.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTextField/VTextField.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VField/VField.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VField/VField.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VField/VField.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VInput/InputIcon.mjs
 function useInputIcon(props) {
@@ -2715,7 +2715,7 @@ function useInputIcon(props) {
 }
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLabel/VLabel.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLabel/VLabel.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLabel/VLabel.css";
 var VLabel = defineComponent2({
   name: "VLabel",
   props: {
@@ -3033,10 +3033,10 @@ function filterFieldProps(attrs) {
 }
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VInput/VInput.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VInput/VInput.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VInput/VInput.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMessages/VMessages.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMessages/VMessages.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMessages/VMessages.css";
 var VMessages = defineComponent2({
   name: "VMessages",
   props: {
@@ -3458,7 +3458,7 @@ function filterInputProps(props) {
 }
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCounter/VCounter.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCounter/VCounter.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCounter/VCounter.css";
 var VCounter = defineComponent2({
   name: "VCounter",
   functional: true,
@@ -3764,13 +3764,13 @@ function filterVTextFieldProps(props) {
 }
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCheckbox/VCheckbox.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCheckbox/VCheckbox.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCheckbox/VCheckbox.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.css";
 var VSelectionControlGroupSymbol = Symbol.for("vuetify:selection-control-group");
 var makeSelectionControlGroupProps = propsFactory({
   color: String,
@@ -4144,10 +4144,10 @@ var VCheckbox = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VChip/VChip.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VChip/VChip.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VChip/VChip.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAvatar/VAvatar.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAvatar/VAvatar.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VAvatar/VAvatar.css";
 var makeVAvatarProps = propsFactory({
   start: Boolean,
   end: Boolean,
@@ -4212,7 +4212,7 @@ var VAvatar = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VChipGroup/VChipGroup.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VChipGroup/VChipGroup.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VChipGroup/VChipGroup.css";
 var VChipGroupSymbol = Symbol.for("vuetify:v-chip-group");
 var VChipGroup = defineComponent2({
   name: "VChipGroup",
@@ -4494,10 +4494,10 @@ var VChip = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VList/VList.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VList/VList.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VList/VList.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VDivider/VDivider.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VDivider/VDivider.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VDivider/VDivider.css";
 var VDivider = defineComponent2({
   name: "VDivider",
   props: {
@@ -5111,7 +5111,7 @@ function filterListGroupProps(props) {
 }
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VList/VListItem.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VList/VListItem.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VList/VListItem.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VList/VListItemSubtitle.mjs
 var VListItemSubtitle = createSimpleFunctional("v-list-item-subtitle");
@@ -5821,10 +5821,10 @@ var VListItemMedia = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMenu/VMenu.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMenu/VMenu.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMenu/VMenu.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VOverlay/VOverlay.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VOverlay/VOverlay.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VOverlay/VOverlay.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/composables/delay.mjs
 var makeDelayProps = propsFactory({
@@ -7796,7 +7796,7 @@ var VAutocomplete = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBadge/VBadge.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBadge/VBadge.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBadge/VBadge.css";
 var VBadge = defineComponent2({
   name: "VBadge",
   inheritAttrs: false,
@@ -7890,7 +7890,7 @@ var VBadge = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBanner/VBanner.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBanner/VBanner.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBanner/VBanner.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBanner/VBannerActions.mjs
 var VBannerActions = defineComponent2({
@@ -8025,7 +8025,7 @@ var VBanner = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.css";
 var VBottomNavigation = defineComponent2({
   name: "VBottomNavigation",
   props: {
@@ -8132,7 +8132,7 @@ var VBottomNavigation = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbsDivider.mjs
 var VBreadcrumbsDivider = defineComponent2({
@@ -8303,7 +8303,7 @@ var VBreadcrumbs = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCard/VCard.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCard/VCard.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCard/VCard.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCard/VCardActions.mjs
 var VCardActions = defineComponent2({
@@ -8560,10 +8560,10 @@ var VCard = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCarousel/VCarousel.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCarousel/VCarousel.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCarousel/VCarousel.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VWindow/VWindow.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VWindow/VWindow.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VWindow/VWindow.css";
 var VWindowSymbol = Symbol.for("vuetify:v-window");
 var VWindowGroupSymbol = Symbol.for("vuetify:v-window-group");
 var VWindow = genericComponent()({
@@ -9000,14 +9000,14 @@ var VCarouselItem = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCode/index.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCode/VCode.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCode/VCode.css";
 var VCode = createSimpleFunctional("v-code");
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPicker.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPicker.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPicker.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.css";
 var VColorPickerCanvas = defineComponent2({
   name: "VColorPickerCanvas",
   props: {
@@ -9184,7 +9184,7 @@ var VColorPickerCanvas = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/util/index.mjs
 var _rgba$inputs;
@@ -9471,13 +9471,13 @@ var VColorPickerEdit = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSlider.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSlider.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSlider.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSliderThumb.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSliderThumb.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSliderThumb.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/slider.mjs
 var VSliderSymbol = Symbol.for("vuetify:v-slider");
@@ -9898,7 +9898,7 @@ var VSliderThumb = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSliderTrack.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSliderTrack.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSliderTrack.css";
 var VSliderTrack = defineComponent2({
   name: "VSliderTrack",
   props: {
@@ -10202,7 +10202,7 @@ var VColorPickerPreview = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/util/colors.mjs
 var red = Object.freeze({
@@ -10577,7 +10577,7 @@ var VColorPickerSwatches = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSheet/VSheet.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSheet/VSheet.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSheet/VSheet.css";
 var VSheet = defineComponent2({
   name: "VSheet",
   props: {
@@ -10754,7 +10754,7 @@ var VColorPicker = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCombobox/VCombobox.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCombobox/VCombobox.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VCombobox/VCombobox.css";
 function highlightResult2(text, matches, length) {
   if (matches == null)
     return text;
@@ -11140,7 +11140,7 @@ var VCombobox = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VDialog/VDialog.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VDialog/VDialog.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VDialog/VDialog.css";
 var VDialog = genericComponent()({
   name: "VDialog",
   props: {
@@ -11250,7 +11250,7 @@ var VDialog = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanel.css";
 var VExpansionPanelSymbol = Symbol.for("vuetify:v-expansion-panel");
 var allowedVariants3 = ["default", "accordion", "inset", "popout"];
 var VExpansionPanels = defineComponent2({
@@ -11480,7 +11480,7 @@ var VExpansionPanel = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VFileInput/VFileInput.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VFileInput/VFileInput.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VFileInput/VFileInput.css";
 var VFileInput = defineComponent2({
   name: "VFileInput",
   inheritAttrs: false,
@@ -11697,7 +11697,7 @@ var VFileInput = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VFooter/VFooter.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VFooter/VFooter.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VFooter/VFooter.css";
 var VFooter = defineComponent2({
   name: "VFooter",
   props: {
@@ -11821,7 +11821,7 @@ var VForm = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VContainer.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VGrid.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VGrid.css";
 var VContainer = defineComponent2({
   name: "VContainer",
   props: {
@@ -11845,7 +11845,7 @@ var VContainer = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VCol.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VGrid.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VGrid.css";
 var breakpoints = ["sm", "md", "lg", "xl", "xxl"];
 var breakpointProps = (() => {
   return breakpoints.reduce((props, val) => {
@@ -11959,7 +11959,7 @@ var VCol = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VRow.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VGrid.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VGrid/VGrid.css";
 var breakpoints2 = ["sm", "md", "lg", "xl", "xxl"];
 var ALIGNMENT = ["start", "end", "center"];
 var SPACE = ["space-between", "space-around", "space-evenly"];
@@ -12110,7 +12110,7 @@ var VHover = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VItemGroup/VItemGroup.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VItemGroup/VItemGroup.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VItemGroup/VItemGroup.css";
 var VItemGroupSymbol = Symbol.for("vuetify:v-item-group");
 var VItemGroup = defineComponent2({
   name: "VItemGroup",
@@ -12189,11 +12189,11 @@ var VItem = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VKbd/index.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VKbd/VKbd.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VKbd/VKbd.css";
 var VKbd = createSimpleFunctional("v-kbd");
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLayout/VLayout.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLayout/VLayout.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLayout/VLayout.css";
 var VLayout = defineComponent2({
   name: "VLayout",
   props: makeLayoutProps(),
@@ -12224,7 +12224,7 @@ var VLayout = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLayout/VLayoutItem.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLayout/VLayoutItem.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLayout/VLayoutItem.css";
 var VLayoutItem = defineComponent2({
   name: "VLayoutItem",
   props: {
@@ -12323,7 +12323,7 @@ var VLazy = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VLocaleProvider/VLocaleProvider.css";
 var VLocaleProvider = defineComponent2({
   name: "VLocaleProvider",
   props: {
@@ -12353,7 +12353,7 @@ var VLocaleProvider = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMain/VMain.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMain/VMain.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VMain/VMain.css";
 var VMain = defineComponent2({
   name: "VMain",
   props: {
@@ -12390,7 +12390,7 @@ var VMain = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VNavigationDrawer/sticky.mjs
 function useSticky(_ref) {
@@ -12913,7 +12913,7 @@ var VNoSsr = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VPagination/VPagination.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VPagination/VPagination.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VPagination/VPagination.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/composables/refs.mjs
 function useRefs() {
@@ -13250,7 +13250,7 @@ var VPagination = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VParallax/VParallax.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VParallax/VParallax.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VParallax/VParallax.css";
 function floor(val) {
   return Math.floor(Math.abs(val)) * Math.sign(val);
 }
@@ -13362,7 +13362,7 @@ var VRadio = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.css";
 var VRadioGroup = defineComponent2({
   name: "VRadioGroup",
   inheritAttrs: false,
@@ -13451,7 +13451,7 @@ var VRadioGroup = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSlider.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlider/VSlider.css";
 var VRangeSlider = defineComponent2({
   name: "VRangeSlider",
   props: {
@@ -13642,7 +13642,7 @@ var VRangeSlider = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VRating/VRating.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VRating/VRating.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VRating/VRating.css";
 var VRating = genericComponent()({
   name: "VRating",
   props: {
@@ -13872,7 +13872,7 @@ var VRating = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSlideGroup/helpers.mjs
 function bias(val) {
@@ -14259,7 +14259,7 @@ var VSlideGroupItem = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSnackbar/VSnackbar.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSnackbar/VSnackbar.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSnackbar/VSnackbar.css";
 var VSnackbar = genericComponent()({
   name: "VSnackbar",
   props: {
@@ -14377,7 +14377,7 @@ var VSnackbar = genericComponent()({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSwitch/VSwitch.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSwitch/VSwitch.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSwitch/VSwitch.css";
 var VSwitch = defineComponent2({
   name: "VSwitch",
   inheritAttrs: false,
@@ -14500,7 +14500,7 @@ var VSwitch = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSystemBar/VSystemBar.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSystemBar/VSystemBar.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VSystemBar/VSystemBar.css";
 var VSystemBar = defineComponent2({
   name: "VSystemBar",
   props: {
@@ -14553,10 +14553,10 @@ var VSystemBar = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTabs/VTabs.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTabs/VTabs.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTabs/VTabs.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTabs/VTab.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTabs/VTab.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTabs/VTab.css";
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTabs/shared.mjs
 var VTabsSymbol = Symbol.for("vuetify:v-tabs");
@@ -14765,7 +14765,7 @@ var VTabs = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTable/VTable.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTable/VTable.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTable/VTable.css";
 var VTable = defineComponent2({
   name: "VTable",
   props: {
@@ -14812,8 +14812,8 @@ var VTable = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTextarea/VTextarea.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTextarea/VTextarea.css";
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTextField/VTextField.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTextarea/VTextarea.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTextField/VTextField.css";
 var VTextarea = defineComponent2({
   name: "VTextarea",
   directives: {
@@ -15051,7 +15051,7 @@ var VTextarea = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VThemeProvider/VThemeProvider.css";
 var VThemeProvider = defineComponent2({
   name: "VThemeProvider",
   props: {
@@ -15080,7 +15080,7 @@ var VThemeProvider = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTimeline/VTimeline.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTimeline/VTimeline.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTimeline/VTimeline.css";
 var VTimeline = defineComponent2({
   name: "VTimeline",
   props: {
@@ -15308,7 +15308,7 @@ var VTimelineItem = defineComponent2({
 });
 
 // node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs
-import "C:/Users/carbar/projects/github/vitepress-starter-kit/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTooltip/VTooltip.css";
+import "/home/projects/vitejs-vite-9fw8do/node_modules/.pnpm/vuetify@3.1.3_cirur3r5nzxkwqk5rar7av7xtq/node_modules/vuetify/lib/components/VTooltip/VTooltip.css";
 var VTooltip = genericComponent()({
   name: "VTooltip",
   props: {
