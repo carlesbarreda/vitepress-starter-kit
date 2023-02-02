@@ -1,13 +1,22 @@
 import { fileURLToPath, URL } from "node:url";
 
 import { defineConfig } from "vitepress";
-import { loadEnv } from "vite";
+//import { loadEnv } from "vite";
 import { withPwa } from "@vite-pwa/vitepress";
 
 import vuetify from "vite-plugin-vuetify";
 
+/*
 const { APP_NAME, APP_TITLE, APP_DESCRIPTION, APP_THEME_COLOR, APP_BGCOLOR, APP_BASE } =
   loadEnv("production", "docs/", "APP_");
+*/
+
+const APP_NAME="VitepressSKT";
+const APP_TITLE="Vitepress Starter Kit";
+const APP_DESCRIPTION="Vitepress powered static site generator.";
+const APP_THEME_COLOR="#ffffff";
+const APP_BGCOLOR="#ffffff";
+const APP_BASE="/vitepress-starter-kit/";
 
 export default withPwa(
   defineConfig({
