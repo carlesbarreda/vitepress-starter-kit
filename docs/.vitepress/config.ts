@@ -17,12 +17,11 @@ const APP_DESCRIPTION="Vitepress powered static site generator.";
 const APP_THEME_COLOR="#ffffff";
 const APP_BGCOLOR="#ffffff";
 let APP_BASE;
+// Check if deploying github pages
 if (typeof process.env.GITHUB_TRIGGERING_ACTOR != "undefined")
   APP_BASE="/vitepress-starter-kit/";
 else 
   APP_BASE="";
-
-console.log(typeof process.env.GITHUB_TRIGGERING_ACTOR);
 
 export default withPwa(
   defineConfig({
