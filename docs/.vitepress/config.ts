@@ -1,42 +1,76 @@
-import { fileURLToPath, URL } from "node:url";
+import { fileURLToPath, URL } from 'node:url';
 
-import { defineConfig } from "vitepress";
-//import { loadEnv } from "vite";
-import { withPwa } from "@vite-pwa/vitepress";
+import { defineConfig } from 'vitepress';
+import { loadEnv } from 'vite';
+import { withPwa } from '@vite-pwa/vitepress';
 
-import vuetify from "vite-plugin-vuetify";
+import vuetify from 'vite-plugin-vuetify';
 
 /*
-const { APP_NAME, APP_TITLE, APP_DESCRIPTION, APP_THEME_COLOR, APP_BGCOLOR, APP_BASE } =
-  loadEnv("production", "docs/", "APP_");
-*/
-
-const APP_NAME="VitepressSKT";
-const APP_TITLE="Vitepress Starter Kit";
-const APP_DESCRIPTION="Vitepress powered static site generator.";
-const APP_THEME_COLOR="#ffffff";
-const APP_BGCOLOR="#ffffff";
 let APP_BASE;
 // Check if deploying github pages
-if (typeof process.env.GITHUB_TRIGGERING_ACTOR != "undefined")
-  APP_BASE="/vitepress-starter-kit/";
+if (typeof process.env.GITHUB_TRIGGERING_ACTOR != 'undefined')
+  APP_BASE='/vitepress-starter-kit/';
 else 
-  APP_BASE="";
+  APP_BASE='';
+*/
+
+const FLAG: {
+  [key:string]: string | undefined,
+  mode: 'development' | 'production',
+  site?: string,
+  base?: string,
+  name?: string,
+  tile?: string,
+  description?: string,
+  theme_color?: string,
+  bgcolor?: string,
+} = {
+  mode: process.env.NODE_ENV == 'production' ?  'production' : 'development',
+};
+
+// Load env
+const { APP_SITE, APP_BASE, APP_NAME, APP_TITLE, APP_DESCRIPTION, APP_THEME_COLOR, APP_BGCOLOR } =
+  loadEnv(FLAG.mode, 'docs/', ['VITE_', 'VUE_', 'APP_']);
+
+FLAG.site = APP_SITE ?? 'http://localhost:4173';
+FLAG.base = APP_BASE ?? '/';
+FLAG.name = APP_NAME ?? 'VitepressSKT';
+FLAG.title = APP_TITLE ?? 'Vitepress Starter Kit';
+FLAG.description = APP_DESCRIPTION ?? 'Vitepress powered static site generator.';
+FLAG.theme_color = APP_THEME_COLOR ?? '#ffffff';
+FLAG.bgcolor = APP_BGCOLOR ?? '#ffffff';
+
+// Parse Argo CLI flags
+for (let i = 0; i < process.argv.length; i++) {
+  if (process.argv[i] === '--site') FLAG.site = process.argv[++i];
+  if (process.argv[i] === '--base') FLAG.base = process.argv[++i];
+}
+
+// Add trailing slash if nedded
+FLAG.base += !FLAG.base?.endsWith('/') ? '/' : '';
+
+console.log('* FLAG');
+console.log(FLAG);
+console.log('* process.env');
+console.log(process.env);
 
 export default withPwa(
   defineConfig({
     /* Vite Options */
     vite: {
-      logLevel: "info",
+      logLevel: 'info',
       define: {
+        __SITE__: JSON.stringify(FLAG.site),
+        __BASE__: JSON.stringify(FLAG.base),
         __DATE__: `'${new Date().toISOString()}'`,
       },
-      envPrefix: ["VITE_", "VUE_", "APP_"],
+      envPrefix: ['VITE_', 'VUE_', 'APP_'],
       resolve: {
         alias: {
-          "|": fileURLToPath(new URL("../", import.meta.url)),
-          "@": fileURLToPath(new URL("./", import.meta.url)),
-          "#": fileURLToPath(new URL("./types", import.meta.url)),
+          '|': fileURLToPath(new URL('../', import.meta.url)),
+          '@': fileURLToPath(new URL('./', import.meta.url)),
+          '#': fileURLToPath(new URL('./types', import.meta.url)),
         },
       },
       plugins: [
@@ -45,280 +79,254 @@ export default withPwa(
         }),
       ],
       ssr: {
-        noExternal: ["vuetify"]
+        noExternal: ['vuetify']
       }
     },
 
     /* Vite PWA Options */
     pwa: {
-      registerType: "prompt",
-      outDir: ".vitepress/dist",
-      includeAssets: ["favicon.ico"],
+      disable: false,
+      mode: FLAG.mode,
+      base: FLAG.base,
+      scope: FLAG.base,
+      outDir: '.vitepress/dist',
+      registerType: 'prompt',
+      strategies: 'generateSW',
+      includeAssets: ['favicon.svg'],
+      buildBase: FLAG.base,
       manifest: {
-        name: APP_TITLE,
-        short_name: APP_NAME,
-        description: APP_DESCRIPTION,
-        background_color: APP_BGCOLOR,
-        theme_color: APP_THEME_COLOR,
+        id: `${FLAG.base}?${FLAG.name}`,
+        start_url: `${FLAG.base}?standalone=true`,
+        name: FLAG.name,
+        short_name: FLAG.name,
+        description: FLAG.description,
+        background_color: FLAG.bgcolor,
+        theme_color: FLAG.theme_color,
+        display: 'standalone',
+        orientation: 'natural',
+        dir: 'ltr',
         icons: [
           {
-            src: "/pwa/manifest-icon-192.maskable.png",
-            sizes: "192x192",
-            type: "image/png",
-            purpose: "any",
+            src: `${FLAG.base}pwa/manifest-icon-192.maskable.png`,
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'any',
           },
           {
-            src: "/pwa/manifest-icon-192.maskable.png",
-            sizes: "192x192",
-            type: "image/png",
-            purpose: "maskable",
+            src: `${FLAG.base}pwa/manifest-icon-192.maskable.png`,
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'maskable',
           },
           {
-            src: "/pwa/manifest-icon-512.maskable.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "any",
+            src: `${FLAG.base}pwa/manifest-icon-512.maskable.png`,
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any',
           },
           {
-            src: "/pwa/manifest-icon-512.maskable.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "maskable",
-          },
-          {
-            src: "/favicon.ico",
-            sizes: "28x32",
-            type: "image/x-icon",
-            purpose: "any",
+            src: `${FLAG.base}pwa/manifest-icon-512.maskable.png`,
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
           },
         ],
       },
-      // Remove cookie if can't refresh index page (dev-dist)
+      workbox: {
+        globDirectory: 'docs/.vitepress/dist',
+        globPatterns: [
+          '**/*.{js,html,css,svg,png,jpg,jpeg,gif,webp,woff,woff2,ttf,eot,ico,txt}',
+        ],
+      },
       devOptions: {
-        enabled: true,
-        type: "module"
+        enabled: FLAG.mode == 'development',
       },
     },
 
     /* Vitepress Options */
-    lang: "en-US",
-    title: APP_TITLE,
-    description: APP_DESCRIPTION,
-    base: APP_BASE,
-    //srcDir: APP_SRCDIR,
+    lang: 'en-US',
+    title: FLAG.tile,
+    description: FLAG.description,
+    base: FLAG.base,
+    //srcDir: 'docs',
     lastUpdated: true,
 
     head: [
-      [
-        "link",
-        {
-          rel: "icon",
-          type: "image/png",
-          sizes: "196x196",
-          href: "/pwa/favicon-196.png",
-        },
-      ],
-      ["link", { rel: "apple-touch-icon", href: "/pwa/apple-icon-180.png" }],
-      [
-        "link",
-        { rel: "mask-icon", href: "/pwa/manifest-icon-512.maskable.png" },
-      ],
-      ["meta", { name: "theme-color", content: APP_THEME_COLOR }],
-      [
-        "meta",
-        {
-          name: "msapplication-square70x70logo",
-          content: "/pwa/mstile-icon-128.png",
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "msapplication-square150x150logo",
-          content: "/pwa/mstile-icon-270.png",
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "msapplication-square310x310logo",
-          content: "/pwa/mstile-icon-558.png",
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "msapplication-wide310x150logo",
-          content: "/pwa/mstile-icon-558-270.png",
-        },
-      ],
-      ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-      ["link", { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" }],
+      [ 'link', { rel: 'icon', type: 'image/png', sizes: '196x196', href: `${FLAG.base}pwa/favicon-196.png`, }, ],
+      [ 'link', { rel: 'apple-touch-icon', href: `${FLAG.base}pwa/apple-icon-180.png` }],
+      [ 'link', { rel: 'mask-icon', href: `${FLAG.base}pwa/manifest-icon-512.maskable.png` }, ],
+      [ 'meta', { name: 'theme-color', content: APP_THEME_COLOR } ],
+      [ 'meta', { name: 'msapplication-square70x70logo', content: `${FLAG.base}pwa/mstile-icon-128.png`, }, ],
+      [ 'meta', { name: 'msapplication-square150x150logo', content: `${FLAG.base}pwa/mstile-icon-270.png`, }, ],
+      [ 'meta', { name: 'msapplication-square310x310logo', content: `${FLAG.base}pwa/mstile-icon-558.png`, }, ],
+      [ 'meta', { name: 'msapplication-wide310x150logo', content: `${FLAG.base}pwa/mstile-icon-558-270.png`, }, ],
+      [ 'meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+      [ 'link', { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' }],
     ],
 
     themeConfig: {
       outline: 2,
-      outlineTitle: "On this page",
-      lastUpdatedText: "Updated Date",
+      outlineTitle: 'On this page',
+      lastUpdatedText: 'Updated Date',
 
       editLink: {
-        pattern: "https://github.com/carlesbarreda/vitepress-starter-kit/edit/main/docs/:path",
-        text: "Edit this page on GitHub"
+        pattern: 'https://github.com/carlesbarreda/vitepress-starter-kit/edit/main/docs/:path',
+        text: 'Edit this page on GitHub'
       },
   
       socialLinks: [
         {
-          icon: "github",
-          link: "https://github.com/carlesbarreda/vitepress-starter-kit",
+          icon: 'github',
+          link: 'https://github.com/carlesbarreda/vitepress-starter-kit',
         },
       ],
 
       footer: {
-        message: "Released under the MIT License.",
-        copyright: "Copyright © 2023 Carles Barreda",
+        message: 'Released under the MIT License.',
+        copyright: 'Copyright © 2023 Carles Barreda',
       },
 
       nav: [
         {
-          text: "Guide",
+          text: 'Guide',
           items: [
-            { text: "Getting Started", link: "/getting-started" },
-            { text: "Add Vite PWA plugin", link: "/add-vite-pwa" },
+            { text: 'Getting Started', link: 'getting-started' },
+            { text: 'Add Vite PWA plugin', link: 'add-vite-pwa' },
           ],
         },
         {
-          text: "Tailwind CSS",
+          text: 'Tailwind CSS',
           items: [
-            { text: "Introduction", link: "/tailwindcss/introduction" },
-            { text: "Colors", link: "/tailwindcss/colors" },
-            { text: "Typography", link: "/tailwindcss/typography" },
-            { text: "Shadows", link: "/tailwindcss/shadows" },
-            { text: "Example", link: "/tailwindcss/example" },
+            { text: 'Introduction', link: 'tailwindcss/introduction' },
+            { text: 'Colors', link: 'tailwindcss/colors' },
+            { text: 'Typography', link: 'tailwindcss/typography' },
+            { text: 'Shadows', link: 'tailwindcss/shadows' },
+            { text: 'Example', link: 'tailwindcss/example' },
             {
-              text: "Components",
+              text: 'Components',
               items: [
-                { text: "Buttons", link: "/tailwindcss/components/buttons" },
-                { text: "Input", link: "/tailwindcss/components/input" },
-                { text: "Status pills", link: "/tailwindcss/components/status-pill" },
-                { text: "Table", link: "/tailwindcss/components/table" },
+                { text: 'Buttons', link: 'tailwindcss/components/buttons' },
+                { text: 'Input', link: 'tailwindcss/components/input' },
+                { text: 'Status pills', link: 'tailwindcss/components/status-pill' },
+                { text: 'Table', link: 'tailwindcss/components/table' },
               ],
             },
           ],
         },
         {
-          text: "Vuetify",
+          text: 'Vuetify',
           items: [
-            { text: "Index", link: "/vuetify/index" },
+            { text: 'Index', link: 'vuetify/index' },
           ],
         },
         {
-          text: "Vitepress",
+          text: 'Vitepress',
           items: [
-            { text: "Index", link: "/vitepress/index" },
+            { text: 'Index', link: 'vitepress/index' },
           ],
         },
-        //{ text: "Files", link: "/files/package.json" },
+        //{ text: 'Files', link: 'files/package.json' },
         /*
         {
-          text: "Patterns",
+          text: 'Patterns',
           items: [
-            { text: "Introduction", link: "/patterns/introduction" },
+            { text: 'Introduction', link: 'patterns/introduction' },
           ],
         },
         */
-        { text: "Example", link: "/example" }
+        { text: 'Example', link: 'example' }
       ],
 
       sidebar: [
         {
-          text: "Guide",
+          text: 'Guide',
           items: [
-            { text: "Getting Started", link: "/getting-started" },
-            { text: "Add Vite PWA plugin", link: "/add-vite-pwa" },
+            { text: 'Getting Started', link: 'getting-started' },
+            { text: 'Add Vite PWA plugin', link: 'add-vite-pwa' },
           ],
         },
         {
-          text: "Tailwind CSS",
+          text: 'Tailwind CSS',
           collapsed: false,
           items: [
-            { text: "Introduction", link: "/tailwindcss/introduction" },
-            { text: "Colors", link: "/tailwindcss/colors" },
-            { text: "Typography", link: "/tailwindcss/typography" },
-            { text: "Shadows", link: "/tailwindcss/shadows" },
-            { text: "Example", link: "/tailwindcss/example" },
+            { text: 'Introduction', link: 'tailwindcss/introduction' },
+            { text: 'Colors', link: 'tailwindcss/colors' },
+            { text: 'Typography', link: 'tailwindcss/typography' },
+            { text: 'Shadows', link: 'tailwindcss/shadows' },
+            { text: 'Example', link: 'tailwindcss/example' },
             {
-              text: "Components",
+              text: 'Components',
               collapsed: true,
               items: [
-                { text: "Buttons", link: "/tailwindcss/components/buttons" },
-                { text: "Input", link: "/tailwindcss/components/input" },
-                { text: "Status pills", link: "/tailwindcss/components/status-pill" },
-                { text: "Table", link: "/tailwindcss/components/table" },
+                { text: 'Buttons', link: 'tailwindcss/components/buttons' },
+                { text: 'Input', link: 'tailwindcss/components/input' },
+                { text: 'Status pills', link: 'tailwindcss/components/status-pill' },
+                { text: 'Table', link: 'tailwindcss/components/table' },
               ],
             },
           ],
         },
         {
-          text: "Vuetify",
+          text: 'Vuetify',
           items: [
-            { text: "Index", link: "/vuetify/index" },
+            { text: 'Index', link: 'vuetify/index' },
           ],
         },
         {
-          text: "Vitepress",
+          text: 'Vitepress',
           items: [
-            { text: "Index", link: "/vitepress/index" },
+            { text: 'Index', link: 'vitepress/index' },
           ],
         },
         /*
         {
-          text: "Patterns",
+          text: 'Patterns',
           items: [
-            { text: "Introduction", link: "/patterns/introduction" },
+            { text: 'Introduction', link: 'patterns/introduction' },
           ],
         },
         */
-        { text: "Example", link: "/example" },
+        { text: 'Example', link: 'example' },
         /*
         */
         {
-          text: "Files",
+          text: 'Files',
           collapsed: true,
           items: [
             {
-              text: "docs",
+              text: 'docs',
               collapsed: true,
               items: [
                 {
-                  text: ".vitepress",
+                  text: '.vitepress',
                   collapsed: true,
                   items: [
                     {
-                      text: "theme",
+                      text: 'theme',
                       collapsed: true,
                       items: [
                         {
-                          text: "components",
+                          text: 'components',
                           collapsed: true,
                           items: [
-                            { text: "ReloadPrompt.vue", link: "/files/docs/_vitepress/theme/components/ReloadPrompt.vue" },
+                            { text: 'ReloadPrompt.vue', link: 'files/docs/_vitepress/theme/components/ReloadPrompt.vue' },
                           ],
                         },
-                        { text: "content.scss", link: "/files/docs/_vitepress/theme/content.scss" },
-                        { text: "index.ts", link: "/files/docs/_vitepress/theme/index.ts" },
-                        { text: "tailwind.postcss", link: "/files/docs/_vitepress/theme/tailwind.postcss" },
+                        { text: 'content.scss', link: 'files/docs/_vitepress/theme/content.scss' },
+                        { text: 'index.ts', link: 'files/docs/_vitepress/theme/index.ts' },
+                        { text: 'tailwind.postcss', link: 'files/docs/_vitepress/theme/tailwind.postcss' },
                       ],
                     },
-                    { text: "config.ts", link: "/files/docs/_vitepress/config.ts" },
+                    { text: 'config.ts', link: 'files/docs/_vitepress/config.ts' },
                   ],
                 },
               ],
             },
-            { text: ".gitignore", link: "/files/_gitignore" },
-            { text: ".stackblitzrc", link: "/files/_stackblitzrc" },
-            { text: "LICENSE", link: "/files/LICENSE" },
-            { text: "tailwind.config.cjs", link: "/files/tailwind.config.cjs" },
-            { text: "package.json", link: "/files/package.json" },
+            { text: '.gitignore', link: 'files/_gitignore' },
+            { text: '.stackblitzrc', link: 'files/_stackblitzrc' },
+            { text: 'LICENSE', link: 'files/LICENSE' },
+            { text: 'tailwind.config.cjs', link: 'files/tailwind.config.cjs' },
+            { text: 'package.json', link: 'files/package.json' },
           ],
         },
       ],

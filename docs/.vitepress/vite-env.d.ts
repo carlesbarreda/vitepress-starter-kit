@@ -24,6 +24,8 @@ interface ImportMeta {
 }
 
 declare const __DATE__: string;
+declare const __SITE__: string;
+declare const __BASE__: string;
 
 interface TwcHockeyTeam {
   id: string;
