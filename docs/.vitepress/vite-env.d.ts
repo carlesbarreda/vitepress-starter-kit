@@ -11,12 +11,13 @@ declare module "*.vue" {
 }
 
 interface ImportMetaEnv {
-  readonly APP_NAME: string;
-  readonly APP_TITLE: string;
-  readonly APP_DESCRIPTION: string;
-  readonly APP_THEME_COLOR: string;
-  readonly APP_BGCOLOR: string;
-  readonly APP_BASE: string;
+  readonly SITE: string;
+  readonly BASE: string;
+  readonly NAME: string;
+  readonly TITLE: string;
+  readonly DESCRIPTION: string;
+  readonly THEME_COLOR: string;
+  readonly BGCOLOR: string;
 }
 
 interface ImportMeta {

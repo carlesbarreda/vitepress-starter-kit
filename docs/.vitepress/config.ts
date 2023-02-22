@@ -29,17 +29,19 @@ const FLAG: {
   mode: process.env.NODE_ENV == 'production' ?  'production' : 'development',
 };
 
-// Load env
-const { APP_SITE, APP_BASE, APP_NAME, APP_TITLE, APP_DESCRIPTION, APP_THEME_COLOR, APP_BGCOLOR } =
-  loadEnv(FLAG.mode, 'docs/', ['VITE_', 'VUE_', 'APP_']);
+const ENV_KEYS = ['VITE_', 'VUE_', 'SITE', 'BASE', 'NAME', 'TITLE', 'DESCRIPTION', 'THEME_COLOR', 'BGCOLOR'];
 
-FLAG.site = APP_SITE ?? 'http://localhost:4173';
-FLAG.base = APP_BASE ?? '/';
-FLAG.name = APP_NAME ?? 'VitepressSKT';
-FLAG.title = APP_TITLE ?? 'Vitepress Starter Kit';
-FLAG.description = APP_DESCRIPTION ?? 'Vitepress powered static site generator.';
-FLAG.theme_color = APP_THEME_COLOR ?? '#ffffff';
-FLAG.bgcolor = APP_BGCOLOR ?? '#ffffff';
+// Load env
+const { SITE, BASE, NAME, TITLE, DESCRIPTION, THEME_COLOR, BGCOLOR } =
+  loadEnv(FLAG.mode, 'docs/', ENV_KEYS);
+
+FLAG.site = SITE ?? 'https://vitepress-starter-kit.vercel.app';
+FLAG.base = BASE ?? '/';
+FLAG.name = NAME ?? 'VitepressSKT';
+FLAG.title = TITLE ?? 'Vitepress Starter Kit';
+FLAG.description = DESCRIPTION ?? 'Vitepress powered static site generator.';
+FLAG.theme_color = THEME_COLOR ?? '#ffffff';
+FLAG.bgcolor = BGCOLOR ?? '#ffffff';
 
 // Parse Argo CLI flags
 for (let i = 0; i < process.argv.length; i++) {
@@ -65,7 +67,7 @@ export default withPwa(
         __BASE__: JSON.stringify(FLAG.base),
         __DATE__: `'${new Date().toISOString()}'`,
       },
-      envPrefix: ['VITE_', 'VUE_', 'APP_'],
+      envPrefix: ENV_KEYS,
       resolve: {
         alias: {
           '|': fileURLToPath(new URL('../', import.meta.url)),
@@ -155,7 +157,7 @@ export default withPwa(
       [ 'link', { rel: 'icon', type: 'image/png', sizes: '196x196', href: `${FLAG.base}pwa/favicon-196.png`, }, ],
       [ 'link', { rel: 'apple-touch-icon', href: `${FLAG.base}pwa/apple-icon-180.png` }],
       [ 'link', { rel: 'mask-icon', href: `${FLAG.base}pwa/manifest-icon-512.maskable.png` }, ],
-      [ 'meta', { name: 'theme-color', content: APP_THEME_COLOR } ],
+      [ 'meta', { name: 'theme-color', content: `${FLAG.theme_color}` } ],
       [ 'meta', { name: 'msapplication-square70x70logo', content: `${FLAG.base}pwa/mstile-icon-128.png`, }, ],
       [ 'meta', { name: 'msapplication-square150x150logo', content: `${FLAG.base}pwa/mstile-icon-270.png`, }, ],
       [ 'meta', { name: 'msapplication-square310x310logo', content: `${FLAG.base}pwa/mstile-icon-558.png`, }, ],
