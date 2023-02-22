@@ -39,7 +39,7 @@
     "@mdi/font": "^7.1.96",
     "@rushstack/eslint-patch": "^1.2.0",
     "@types/node": "^18.11.18",
-    "@vite-pwa/vitepress": "^0.0.4",
+    "@vite-pwa/vitepress": "^0.0.5",
     "@vitest/ui": "^0.28.3",
     "@vue/compiler-dom": "^3.2.45",
     "@vue/eslint-config-prettier": "^7.0.0",
