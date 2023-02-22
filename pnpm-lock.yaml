@@ -9,7 +9,7 @@ importers:
       '@mdi/font': ^7.1.96
       '@rushstack/eslint-patch': ^1.2.0
       '@types/node': ^18.11.18
-      '@vite-pwa/vitepress': ^0.0.4
+      '@vite-pwa/vitepress': ^0.0.5
       '@vitest/ui': ^0.28.3
       '@vue/compiler-dom': ^3.2.45
       '@vue/eslint-config-prettier': ^7.0.0
@@ -45,7 +45,7 @@ importers:
       '@mdi/font': 7.1.96
       '@rushstack/eslint-patch': 1.2.0
       '@types/node': 18.14.0
-      '@vite-pwa/vitepress': 0.0.4_vite-plugin-pwa@0.14.4
+      '@vite-pwa/vitepress': 0.0.5_vite-plugin-pwa@0.14.4
       '@vitest/ui': 0.28.5
       '@vue/compiler-dom': 3.2.47
       '@vue/eslint-config-prettier': 7.1.0_yrlhudqyxg2l7qvwle5bdpmrli
@@ -2106,8 +2106,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vite-pwa/vitepress/0.0.4_vite-plugin-pwa@0.14.4:
-    resolution: {integrity: sha512-+uMmxOe8G5X+9zbeP7htVINv0MVn8tuaKEE96jHXmV4dRb5HJX9U8WbgSJ4QD8ezoeYABjPjagGWOV3l0DMrtw==}
+  /@vite-pwa/vitepress/0.0.5_vite-plugin-pwa@0.14.4:
+    resolution: {integrity: sha512-B6xy9wxi9fen+/AnRkY2+XCrbhqh2b/TsVTka6qFQ3zJ8zHSoEUHUucYT3KHMcY5I124G0ZmPKNW+UF9Jx1k4w==}
     peerDependencies:
       vite-plugin-pwa: ^0.14.0
     dependencies:
