@@ -6,15 +6,6 @@ import { withPwa } from '@vite-pwa/vitepress';
 
 import vuetify from 'vite-plugin-vuetify';
 
-/*
-let APP_BASE;
-// Check if deploying github pages
-if (typeof process.env.GITHUB_TRIGGERING_ACTOR != 'undefined')
-  APP_BASE='/vitepress-starter-kit/';
-else 
-  APP_BASE='';
-*/
-
 const FLAG: {
   [key:string]: string | undefined,
   mode: 'development' | 'production',
@@ -54,13 +45,14 @@ FLAG.base += !FLAG.base?.endsWith('/') ? '/' : '';
 
 console.log('* FLAG');
 console.log(FLAG);
-console.log('* process.env');
-console.log(process.env);
+// console.log('* process.env');
+// console.log(process.env);
 
 export default withPwa(
   defineConfig({
     /* Vite Options */
     vite: {
+      base: FLAG.base,
       logLevel: 'info',
       define: {
         __SITE__: JSON.stringify(FLAG.site),
@@ -150,7 +142,7 @@ export default withPwa(
     title: FLAG.tile,
     description: FLAG.description,
     base: FLAG.base,
-    //srcDir: 'docs',
+    srcDir: './docs',
     lastUpdated: true,
 
     head: [
@@ -164,6 +156,7 @@ export default withPwa(
       [ 'meta', { name: 'msapplication-wide310x150logo', content: `${FLAG.base}pwa/mstile-icon-558-270.png`, }, ],
       [ 'meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
       [ 'link', { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' }],
+      [ 'base', { href: `${FLAG.base}` }],
     ],
 
     themeConfig: {
